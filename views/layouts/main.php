@@ -38,6 +38,7 @@ AppAsset::register($this);
         'items' => [
             ['label' => 'Users', 'url' => ['users/index'],'visible' => !Yii::$app->user->isGuest,],
             ['label' => 'Email Templates', 'url' => ['template/index'],'visible' => !Yii::$app->user->isGuest,],
+            ['label' => 'File Upload', 'url' => ['upload/index'],'visible' => !Yii::$app->user->isGuest,],
             Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/admin/site/index']]
             ) : (
