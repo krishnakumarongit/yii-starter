@@ -42,4 +42,6 @@ return [
     'charset' => 'utf8',
 ];
 ```
+sql file is added in web/database/admintool.sql
+
 
